@@ -128,22 +128,6 @@ The results JSON file should follow this format:
 
 Each video file is mapped to a list of caption strings representing temporal segments of the video.
 
-## 📁 Project Structure
-
-```
-LLaMA-Factory/
-├── data/                    # Dataset directory
-├── examples/                # Training configuration examples
-├── eval_spld/              # Evaluation scripts and utilities
-│   ├── data_utils/         # Dataset utilities
-│   ├── evaluator.py        # Main evaluation script
-│   ├── run_eval.sh         # Evaluation runner
-│   └── utils.py            # Utility functions
-├── src/                     # Source code
-├── train.slurm             # SLURM training script
-└── README_CAMO.md          # This file
-```
-
 ## 🔗 Related Resources
 
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): The underlying training framework

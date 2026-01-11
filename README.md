@@ -60,7 +60,7 @@ sbatch train.slurm
 Alternatively, you can run the LLaMA-Factory training command directly:
 
 ```bash
-llamafactory-cli train examples/train_full/qwen2_5vl_3b_full_sft_exp1.yaml
+llamafactory-cli train examples/train_full/qwen2_5vl_3b_full_sft_camo.yaml
 ```
 
 For more training configurations, refer to `train.slurm` or explore the `examples/train_full/` directory.

@@ -1,0 +1,25 @@
+What is the scene description and the camera behavior of the video? Separate the caption into <scene> and <camera>.
+Describe what is happening in the video and how the camera moves. Use <scene> for the content and <camera> for the camera motion.
+Summarize the video by describing the visual scene and the camera dynamics, formatted as <scene> and <camera>.
+Provide a high-level scene overview and a detailed camera movement description, using <scene> and <camera> tags.
+Explain the visual content of the video and the camera operation separately in <scene> and <camera>.
+What does the video depict, and how is the camera positioned or moved? Answer using <scene> and <camera>.
+Describe the main visual elements in the video and the camera’s motion or stability, separated into <scene> and <camera>.
+What is shown in the video, and does the camera pan, tilt, zoom, or remain static? Use <scene> and <camera>.
+Provide a structured description of the video’s content and camera behavior using <scene> and <camera> tags.
+What can be seen in the video, and how does the camera capture it? Separate your answer into <scene> and <camera>.
+Generate a structured video caption by describing the scene and camera movement using <scene> and <camera>.
+Analyze the video and output a scene-level description and a camera-motion description. Separate your answer into <scene> and <camera>.
+Decompose the video into two parts: what happens and how it is filmed, formatted as <scene> and <camera>.
+Provide a machine-readable description of the video using <scene> for visual content and <camera> for camera motion.
+Describe the video in a structured format, separating scene semantics and camera behavior into <scene> and <camera>.
+What is occurring in the video, and what type of camera movement is used? Use <scene> and <camera> tags.
+Describe the video’s scene and specify whether the camera is static or moving, using <scene> and <camera>.
+What visual scenario is presented, and how does the camera track or frame it? Answer with <scene> and <camera>.
+Explain the scene content and indicate any camera motion or viewpoint changes using <scene> and <camera>.
+Identify the scene being shown and describe the camera’s motion pattern in <scene> and <camera>.
+Describe the video using <scene> for content and <camera> for camera behavior.
+Provide a two-part description of the video: <scene> and <camera>.
+What is the scene, and how does the camera behave? Format the response with <scene> and <camera>.
+Summarize the video’s visuals and camera motion using <scene> and <camera> tags.
+Output a structured description of the video with separate <scene> and <camera> sections.

@@ -1,0 +1,166 @@
+[{
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the pillow to the guitar's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0000_00/820.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the backpack to the shoes's left-front, left-back, right-front, or right-back?Options:\nA. left-front\nB. left-back\nC. right-front\nD. right-back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0000_00/3240.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the guitar to the night stand's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0000_00/3560.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the night stand to the pillow's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0000_02/980.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the tv to the shoes's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0000_02/5700.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the sofa to the table's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0001_00/400.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the sofa to the door's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0001_00/580.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the sofa to the window's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0001_01/440.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the sofa to the table's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "A",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0001_01/580.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the sofa to the table's left, right, front, or back?Options:\nA. left\nB. right\nC. front\nD. back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "B",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0001_01/640.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Question: From the camera's perspective, is the tv to the lamp's left-front, left-back, right-front, or right-back?Options:\nA. left-front\nB. left-back\nC. right-front\nD. right-back\n\nPlease answer with the option's letter from the given choices directly.",
+        "role": "user"
+      },
+      {
+        "content": "C",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "spld-26k/images/scene0002_00/660.jpg"
+    ]
+  }
+]

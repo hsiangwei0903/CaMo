@@ -1,0 +1,48 @@
+=== SLURM job started ===
+Node: g009
+GPUs available: 0,1,2,3
+Running evaluation: model=qwenvl_3b, task=VSI-Bench
+Warning: failed to extract frames for:  ./datasets/VSI-Bench/scannetpp/27dd4da69e.mp4
+Warning: failed to extract frames for:  ./datasets/VSI-Bench/scannetpp/27dd4da69e.mp4
+Warning: failed to extract frames for:  ./datasets/VSI-Bench/scannetpp/27dd4da69e.mp4
+All evaluation tasks of VSI-Bench completed. Final results are in: ./logs/qwenvl_3b_default/VSI-Bench/20251216_153538/VSI-Bench_results.jsonl
+Total script runtime: 00h44m24s
+VSI-Bench Evaluation Results: {'obj_appearance_order_accuracy': 0.4991896272285251, 'object_abs_distance_MRA:.5:.95:.05': 0.18609112709832132, 'object_counting_MRA:.5:.95:.05': 0.6475177304964539, 'object_rel_distance_accuracy': 0.4519774011299435, 'object_size_estimation_MRA:.5:.95:.05': 0.592436974789916, 'room_size_estimation_MRA:.5:.95:.05': 0.4319444444444444, 'route_planning_accuracy': 0.25773195876288657, 'object_rel_direction_accuracy': 0.45280268923210487, 'overall_accuracy': 0.4399614941478245, 'mca_accuracy': 0.415425419088365, 'na_accuracy': 0.4644975692072839}
+VSI-Bench Evaluation Complete. Results file: ./logs/qwenvl_3b_default/VSI-Bench/20251216_153538/VSI-Bench_results.jsonl
+
+Running evaluation: model=qwenvl_3b, task=SPBench-SI
+All evaluation tasks of SPBench-SI completed. Final results are in: ./logs/qwenvl_3b_default/SPBench-SI/20251216_162005/SPBench-SI_results.jsonl
+Total script runtime: 00h00m45s
+SPBench-SI Evaluation Results: {'object_abs_distance_MRA:.5:.95:.05': 0.3187919463087248, 'object_rel_direction_accuracy': 0.7254901960784313, 'object_rel_distance_accuracy': 0.8241758241758241, 'object_size_estimation_MRA:.5:.95:.05': 0.7095032397408207, 'overall_accuracy': 0.6444903015759502, 'mca_accuracy': 0.7748330101271277, 'na_accuracy': 0.5141475930247728}
+SPBench-SI Evaluation Complete. Results file: ./logs/qwenvl_3b_default/SPBench-SI/20251216_162005/SPBench-SI_results.jsonl
+
+Running evaluation: model=qwenvl_3b, task=SPBench-MV
+All evaluation tasks of SPBench-MV completed. Final results are in: ./logs/qwenvl_3b_default/SPBench-MV/20251216_162053/SPBench-MV_results.jsonl
+Total script runtime: 00h01m28s
+SPBench-MV Evaluation Results: {'object_abs_distance_MRA:.5:.95:.05': 0.18666666666666665, 'object_counting_MRA:.5:.95:.05': 0.9214285714285714, 'object_rel_direction_accuracy': 0.45454545454545453, 'object_rel_distance_accuracy': 1.0, 'object_size_estimation_MRA:.5:.95:.05': 0.7291139240506328, 'overall_accuracy': 0.6583509233382651, 'mca_accuracy': 0.7272727272727273, 'na_accuracy': 0.6124030540486236}
+SPBench-MV Evaluation Complete. Results file: ./logs/qwenvl_3b_default/SPBench-MV/20251216_162053/SPBench-MV_results.jsonl
+
+Running evaluation: model=qwenvl_3b, task=SPAR-Bench
+Warning: Process file ./logs/qwenvl_3b_default/SPAR-Bench/20251216_162223/SPAR-Bench_results_rank_0.jsonl not found for merging.
+Warning: Process file ./logs/qwenvl_3b_default/SPAR-Bench/20251216_162223/SPAR-Bench_results_rank_1.jsonl not found for merging.
+Warning: Process file ./logs/qwenvl_3b_default/SPAR-Bench/20251216_162223/SPAR-Bench_results_rank_2.jsonl not found for merging.
+Warning: Process file ./logs/qwenvl_3b_default/SPAR-Bench/20251216_162223/SPAR-Bench_results_rank_3.jsonl not found for merging.
+All evaluation tasks of SPAR-Bench completed. Final results are in: ./logs/qwenvl_3b_default/SPAR-Bench/20251216_162223/SPAR-Bench_results.jsonl
+Total script runtime: 00h00m11s
+SPAR-Bench Evaluation Results: {'overall': {}, 'by_img_type': {}}
+SPAR-Bench Evaluation Complete. Results file: ./logs/qwenvl_3b_default/SPAR-Bench/20251216_162223/SPAR-Bench_results.jsonl
+
+Running evaluation: model=qwenvl_3b, task=ViewSpatial-Bench
+All evaluation tasks of ViewSpatial-Bench completed. Final results are in: ./logs/qwenvl_3b_default/ViewSpatial-Bench/20251216_162236/ViewSpatial-Bench_results.jsonl
+Total script runtime: 00h14m58s
+ViewSpatial-Bench Evaluation Results: {'Camera perspective - Object View Orientation': 0.3092369477911647, 'Camera perspective - Relative Direction': 0.47490129723632263, 'Person perspective - Object View Orientation': 0.5391566265060241, 'Person perspective - Relative Direction': 0.3147268408551069, 'Person perspective - Scene Simulation Relative Direction': 0.351131221719457, 'overall_accuracy': 0.4096638655462185, 'scannet_accuracy': 0.4273801250868659, 'coco_accuracy': 0.3916725476358504, 'person_accuracy': 0.40434930343187225, 'camera_accuracy': 0.41531238714337304}
+ViewSpatial-Bench Evaluation Complete. Results file: ./logs/qwenvl_3b_default/ViewSpatial-Bench/20251216_162236/ViewSpatial-Bench_results.jsonl
+Overall Accuracy: 40.97%
+
+Running evaluation: model=qwenvl_3b, task=CV-Bench
+All evaluation tasks of CV-Bench completed. Final results are in: ./logs/qwenvl_3b_default/CV-Bench/20251216_163737/CV-Bench_results.jsonl
+Total script runtime: 00h01m57s
+CV-Bench Evaluation Results: {'CV-Bench_Accuracy': 0.763117683710616, '2D_Accuracy': 0.7345687007545652, '3D_Accuracy': 0.7916666666666666, 'ADE20K_Accuracy': 0.684044233807267, 'COCO_Accuracy': 0.7850931677018633, 'Omni3D_Accuracy': 0.7916666666666666}
+CV-Bench Evaluation Complete. Results file: ./logs/qwenvl_3b_default/CV-Bench/20251216_163737/CV-Bench_results.jsonl
+
+=== Job finished ===

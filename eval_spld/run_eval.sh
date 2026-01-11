@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# MODEL_NAMES=("qwenvl_3b" "SpatialLadder-3B" "SpaceR-3B" "camo-3B")
-MODEL_NAMES=("qwenvl_3b")
+MODEL_NAMES=("camo-3B")
 TASK=("VSI-Bench")
 SUPPORTED_TASKS=("VSI-Bench" "SPBench-SI" "SPBench-MV" "SPAR-Bench" "ViewSpatial-Bench" "CV-Bench")
 # PROMPT_TYPE="thinking"
@@ -40,11 +39,7 @@ done
 
 # Map model name to model path
 declare -A MODEL_CONFIG_DICT
-MODEL_CONFIG_DICT["qwenvl_3b"]="Qwen/Qwen2.5-VL-3B-Instruct"
-# MODEL_CONFIG_DICT["qwenvl_7b"]="Qwen/Qwen2.5-VL-7B-Instruct"
-# MODEL_CONFIG_DICT["camo-3B"]="/gpfs/projects/embodied3d/LLaMA-Factory/saves/qwen2_5vl-3b/full/exp1"
-# MODEL_CONFIG_DICT["SpatialLadder-3B"]="hongxingli/SpatialLadder-3B"
-# MODEL_CONFIG_DICT["SpaceR-3B"]="RUBBISHLIKE/SpaceR-3B"
+MODEL_CONFIG_DICT["camo-3B"]="../saves/qwen2_5vl-3b/full/camo"
 
 export CUDA_LAUNCH_BLOCKING=1
 export CUDA_VISIBLE_DEVICES=$GPU_IDS

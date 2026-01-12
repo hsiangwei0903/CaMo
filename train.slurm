@@ -25,24 +25,9 @@ module load conda
 # ---------------------------
 conda activate camo
 
-# ---------------------------
-# Cache directories
-# ---------------------------
-export HF_HOME=/gpfs/projects/embodied3d/hf-cache
-export HF_HUB_CACHE=/gpfs/projects/embodied3d/hf-cache
-export TRANSFORMERS_CACHE=/gpfs/projects/embodied3d/hf-cache
-export HF_DATASETS_CACHE=/gpfs/projects/embodied3d/hf-cache
-export XDG_CACHE_HOME=/gpfs/projects/embodied3d/hf-cache
-
 export TOKENIZERS_PARALLELISM=false
 export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
-
-echo "Using python: $(which python)"
-echo "Using pip: $(which pip)"
-echo "CUDA: $(which nvcc)"
-echo "Torch version: $(python -c 'import torch; print(torch.__version__)')"
-echo "CUDA available in Torch: $(python -c 'import torch; print(torch.cuda.is_available())')"
 
 # Launch training with config YAML
 llamafactory-cli train examples/train_full/qwen2_5vl_3b_full_sft_camo.yaml

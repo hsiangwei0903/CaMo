@@ -5,8 +5,7 @@ This repository contains the code for paper Towards Genuine Spatial Intelligence
 ## 🚀 Quick Links
 
 - **Model Checkpoint**: [CaMo-3B](https://huggingface.co/hsiangwei0903/CaMo-3B)
-- **Dataset**: [SpatialLadder-26k](https://huggingface.co/datasets/hongxingli/SpatialLadder-26k)
-- **CameraBench Form**: [Request Access](https://docs.google.com/forms/d/e/1FAIpQLScQtbcgCM9aDLR5jhSm_mIPY3UL0Zqbpt18ijylf2DR1JnoFg/viewform)
+- **Dataset**: [SpatialLadder-26k](https://huggingface.co/datasets/hongxingli/SpatialLadder-26k) [CameraBench](https://docs.google.com/forms/d/e/1FAIpQLScQtbcgCM9aDLR5jhSm_mIPY3UL0Zqbpt18ijylf2DR1JnoFg/viewform)
 
 ## 📦 Installation
 

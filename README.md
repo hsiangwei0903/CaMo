@@ -1,6 +1,6 @@
 # Camera Motion Grounded Evaluation and Training for Vision-Language Models
 
-This repository contains the code and resources for training and evaluating Vision-Language Models (VLMs) with a focus on camera motion understanding and spatial intelligence.
+This repository contains the code for paper Towards Genuine Spatial Intelligence: Camera Motion Grounded Evaluation and Training for Vision-Language Models.
 
 ## 🚀 Quick Links
 

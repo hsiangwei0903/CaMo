@@ -11,8 +11,6 @@ This repository contains the code for paper Towards Genuine Spatial Intelligence
 
 ### Create Conda Environment
 
-First, create a conda environment with Python 3.10:
-
 ```bash
 conda create -n camo python=3.10 -y
 conda activate camo
@@ -30,7 +28,8 @@ git clone https://github.com/hsiangwei0903/CaMo.git
 pip install -e .
 ```
 
-Other dependencies might be required depending on your training config. We use deepspeed and flash-attn for training as well.
+Other dependencies might be required depending on your training config.
+We use deepspeed==0.15.4 and flash-attn==2.7.4.post1 for training as well.
 
 For detailed setup instructions and other installation issues, refer to the [LLaMA-Factory documentation](https://github.com/hiyouga/LLaMA-Factory).
 

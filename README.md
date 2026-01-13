@@ -28,10 +28,9 @@ git clone https://github.com/hsiangwei0903/CaMo.git
 
 # Install dependencies
 pip install -e .
-pip install -r requirements/metrics.txt
 ```
 
-Optional dependencies available: `metrics`, `deepspeed`. Install with: `pip install -e . && pip install -r requirements/metrics.txt -r requirements/deepspeed.txt`
+Other dependencies might be required depending on your training config. We use deepspeed and flash-attn for training as well.
 
 For detailed setup instructions and other installation issues, refer to the [LLaMA-Factory documentation](https://github.com/hiyouga/LLaMA-Factory).
 

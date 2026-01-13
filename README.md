@@ -24,14 +24,16 @@ Follow the standard LLaMA-Factory installation instructions:
 
 ```bash
 # Clone the repository
-git clone https://github.com/hsiangwei0903/camo-dev.git
-cd LLaMA-Factory
+git clone https://github.com/hsiangwei0903/CaMo.git
 
 # Install dependencies
 pip install -e .
+pip install -r requirements/metrics.txt
 ```
 
-For detailed setup instructions, refer to the [LLaMA-Factory documentation](https://github.com/hiyouga/LLaMA-Factory).
+Optional dependencies available: `metrics`, `deepspeed`. Install with: `pip install -e . && pip install -r requirements/metrics.txt -r requirements/deepspeed.txt`
+
+For detailed setup instructions and other installation issues, refer to the [LLaMA-Factory documentation](https://github.com/hiyouga/LLaMA-Factory).
 
 ## 📚 Dataset Preparation
 

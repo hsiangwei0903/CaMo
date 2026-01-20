@@ -70,11 +70,11 @@ For more training configurations, refer to `train.slurm` or explore the `example
 
 The evaluation pipeline supports the following spatial understanding benchmarks:
 
-- **[VSI-Bench](https://huggingface.co/datasets/nyu-visionx/VSI-Bench)**: Visual Spatial Intelligence Benchmark
-- **[SPBench](https://huggingface.co/datasets/hongxingli/SPBench)**: Spatial Perception Benchmark
-- **[CV-Bench](https://huggingface.co/datasets/nyu-visionx/CV-Bench)**: Computer Vision Benchmark
-- **[SPAR-Bench](https://huggingface.co/datasets/jasonzhango/SPAR-Bench)**: Spatial Reasoning Benchmark
-- **[ViewSpatial-Bench](https://huggingface.co/datasets/lidingm/ViewSpatial-Bench)**: View-aware Spatial Benchmark
+- **[VSI-Bench](https://huggingface.co/datasets/nyu-visionx/VSI-Bench)**
+- **[SPBench](https://huggingface.co/datasets/hongxingli/SPBench)**
+- **[CV-Bench](https://huggingface.co/datasets/nyu-visionx/CV-Bench)**
+- **[SPAR-Bench](https://huggingface.co/datasets/jasonzhango/SPAR-Bench)**
+- **[ViewSpatial-Bench](https://huggingface.co/datasets/lidingm/ViewSpatial-Bench)**
 
 ### Setup
 

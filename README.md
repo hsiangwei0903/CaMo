@@ -1,4 +1,4 @@
-# Camera Motion Grounded Evaluation and Training for Vision-Language Models
+# Camera Motion Grounded Evaluation and Training for Vision-Language Models (BMVC 2026)
 
 This repository contains the code for paper Towards Genuine Spatial Intelligence: Camera Motion Grounded Evaluation and Training for Vision-Language Models.
 
